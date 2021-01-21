@@ -44,7 +44,7 @@
     constructor(
     ) {
       this.storage = new STORAGE();
-      this.UiEnterToken = new API_TOKEN_UI(this.storage.getToken());
+      //this.UiEnterToken = new API_TOKEN_UI(this.storage.getToken());
       this.requestUrl = 'https://webfactory.fogbugz.com/f/api/0/jsonapi';
       this.init();
       this.initEvents();
