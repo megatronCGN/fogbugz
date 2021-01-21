@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!-- Add your site or application content here -->
+
+  <div data-enter-api-token>
+    <p>Your Fogbugz API token is:</p>
+    <input type="text" value=""><br>
+    <button>Update Token</button>
+  </div>
+
+  <p>
+    <a href="javascript:(function (){var d=document;var s=d.createElement('script');s.src='js/main.js';s.setAttribute('data-call','stopWorking');d.head.appendChild(s);}())">Stop working</a><br>
+    <a href="javascript:(function (){var d=document;var s=d.createElement('script');s.src='js/main.js';s.setAttribute('data-call','startWorkingOn');d.head.appendChild(s);}())">Start working</a><br>
+    <a href="javascript:(function (){var d=document;var s=d.createElement('script');s.src='js/main.js';s.setAttribute('data-call','dailyStandup');d.head.appendChild(s);}())">Daily Standup</a><br>
+  </p>
+
+</body>
+
+</html>
